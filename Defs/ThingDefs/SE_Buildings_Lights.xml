@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="GlassLightBase">
+		<defName>OutdoorGroundLampExt</defName>
+		<label>large outdoor groundlamp</label>
+		<description>A strong lamp only placeable outdoors that covers an area much bigger compared to the regular version but requires more building materials. Requires no external energy to run.</description>
+		<graphicData>
+			<texPath>Things/Building/Lights/LargeOutdoorGroundLamp</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<costList>
+			<Steel>40</Steel>
+			<Glass>6</Glass>
+		</costList>
+		<statBases>
+			<WorkToMake>700</WorkToMake>
+			<Beauty>3</Beauty>
+			<Mass>8</Mass>
+		</statBases>
+		<specialDisplayRadius>19.5</specialDisplayRadius>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>21</glowRadius>
+				<glowColor>(217,217,208,0)</glowColor>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_NotUnderRoof</li>
+		</placeWorkers>
+	</ThingDef>
+	
+</Defs>

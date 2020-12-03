@@ -1,0 +1,28 @@
+<ModMetaData>
+	<name>Glass + Lights Extended</name>
+	<author>Squirting Elephant</author>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+		<li>1.2</li>
+	</supportedVersions>
+	<packageId>SquirtingElephant.GlassLightsExtended</packageId>
+	<modDependencies>
+	    <li>
+	      <packageId>NanoCE.GlassLights</packageId>
+	      <displayName>Glass + Lights</displayName>
+	      <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=826153738</steamWorkshopUrl>
+	    </li>
+	</modDependencies>
+	<loadAfter>
+		<li>NanoCE666.GlassSLights</li>
+	</loadAfter>
+	<description>Note that the original mod is not my work. I only added a new bigger outdoor lamp to it with this mod for my super large bases and gardens.
+
+
+- Performance impact: Unknown
+- Mod is XML only and overwrites nothing.
+- Can safely be added to an existing game.
+- Can safely be removed from an existing game providing you delete all structures from this mod first.
+- Requires the "Glass+Lights" mod loaded BEFORE this mod.</description>
+</ModMetaData>
